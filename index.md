@@ -192,3 +192,7 @@ change in the app or on our website.
 
 **Brandon Clement**
 Email: **brandonclement06@icloud.com**
+
+---
+
+[Terms of Service](./terms) · [Support](./support)
