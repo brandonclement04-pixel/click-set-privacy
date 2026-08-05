@@ -3,7 +3,7 @@
 **Effective date:** August 2, 2026
 **Last updated:** August 2, 2026
 
-Click Set is a click-track and guide-vocal app for worship teams, published by **Brandon Clement**
+Click Set is a click-track and guide-vocal app for worship teams, published by **Logos Digital Studio LLC**
 ("we", "us"). This policy explains what the app and the Click Set Web Player do with your
 information.
 
@@ -167,7 +167,7 @@ respond as required by applicable law.
 
 The Web Player hosts audio you supply. You are responsible for holding the rights to the recordings
 you upload and share — see our Terms of Service. If you believe material hosted by us infringes your
-copyright, contact **brandonclement06@icloud.com**.
+copyright, contact our designated agent at **brandon@logosdigitalstudio.com** (see the Terms of Service for the full DMCA notice procedure).
 
 ---
 
@@ -190,8 +190,8 @@ change in the app or on our website.
 
 ## 12. Contact
 
-**Brandon Clement**
-Email: **brandonclement06@icloud.com**
+**Logos Digital Studio LLC**
+Email: **brandon@logosdigitalstudio.com**
 
 ---
 
