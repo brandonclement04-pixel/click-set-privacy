@@ -1,10 +1,10 @@
 # Click Set — Terms of Service
 
 **Effective date:** August 2, 2026
-**Last updated:** August 2, 2026
+**Last updated:** August 5, 2026
 
 These Terms govern your use of the Click Set app and the Click Set Web Player (together, the
-"Service"), provided by **Brandon Clement** ("we", "us"). By using the Service you agree to
+"Service"), provided by **Logos Digital Studio LLC** ("we", "us"). By using the Service you agree to
 them. If you don't agree, don't use the Service.
 
 ---
@@ -79,12 +79,20 @@ Published content is subject to a per-subscriber storage limit (currently **2 GB
 adjust. We may remove content that has not been accessed for an extended period, and older versions
 of a setlist's audio are deleted automatically when you publish that setlist again.
 
-## 8. Copyright complaints and takedowns
+## 8. Copyright complaints and takedowns (DMCA)
 
-We respect intellectual property rights and will remove infringing material.
+We respect intellectual property rights and will remove infringing material. Our designated agent
+for notices of claimed infringement, registered with the U.S. Copyright Office (DMCA-1077452), is:
 
-If you believe material on the Web Player infringes your copyright, send a notice to
-**brandonclement06@icloud.com** including:
+**Brandon Clement**
+Logos Digital Studio LLC
+771 Valley Cir Dr, Apt. 101
+Saline, MI 48176, United States
+Phone: (765) 667-5502
+Email: **brandon@logosdigitalstudio.com**
+
+If you believe material on the Web Player infringes your copyright, send a notice to the agent
+above including:
 
 1. your physical or electronic signature;
 2. identification of the copyrighted work claimed to be infringed;
@@ -147,9 +155,9 @@ conflict-of-laws rules. Disputes will be brought in the state or federal courts 
 
 ## 16. Contact
 
-**Brandon Clement**
+**Logos Digital Studio LLC**
 Saline, Michigan, United States
-Email: **brandonclement06@icloud.com**
+Email: **brandon@logosdigitalstudio.com**
 
 ---
 
