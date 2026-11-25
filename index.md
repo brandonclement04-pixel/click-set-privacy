@@ -1,20 +1,27 @@
 # Click Set — Privacy Policy
 
 **Effective date:** August 2, 2026
-**Last updated:** August 2, 2026
+**Last updated:** November 25, 2026
 
 Click Set is a click-track and guide-vocal app for worship teams, published by **Logos Digital Studio LLC**
 ("we", "us"). This policy explains what the app and the Click Set Web Player do with your
 information.
 
 The short version: Click Set works locally on your device by default. Nothing leaves your device
-unless you connect Planning Center or use the Web Player. We don't track you, show ads, use
-analytics, or sell anything about you to anyone.
+unless you connect Planning Center or use the Web Player. From version 4.3, using the Web Player
+includes having your recordings transcribed so it can show lyrics (Section 3). We don't track you,
+show ads, use analytics, or sell anything about you to anyone.
 
 > **Note on earlier versions of this policy.** Before August 2026 this policy said Click Set stored
 > data only on your device and did no server-side collection. That was accurate at the time. The Web
 > Player feature, added in July 2026, uploads audio to servers we operate when you choose to use it.
 > Section 3 describes exactly what that involves.
+>
+> **November 2026 (version 4.3).** The Web Player can now show lyrics and chords. To make the
+> lyrics, a compressed copy of a song's recording is sent to a transcription service. This is new,
+> it involves companies not named before (Section 6), and once you have published a setlist it
+> happens in the background for new songs. "Lyrics in the Web Player" in Section 3 describes it and
+> how to turn it off.
 
 ---
 
@@ -52,13 +59,45 @@ Your use of Planning Center remains governed by Planning Center's own privacy po
 If you use **Send to Web Player**, the app renders audio for the selected setlist and uploads it to
 servers we operate, so that people you share the link with can listen in a web browser.
 
-**This is the only feature that sends your content to us, and it never runs on its own — it happens
-only when you tap it.**
+Publishing is the only way your setlists and rendered audio reach us, and it never runs on its own:
+it happens only when you tap it. **One related step can run without a tap, once you have published
+at least one setlist: making lyrics, described next.**
+
+### Lyrics in the Web Player (version 4.3 and later)
+
+To show lyrics, Click Set needs to know what is sung in a song's recording and when.
+
+- **What is sent.** A compressed, lower-quality copy of the song's reference recording (and, where
+  you have removed the vocals, a copy of the isolated vocal), the song's title, and the subscription
+  identifier described below. Nothing else from the app.
+- **When.** When you publish a setlist, when you choose Get Lyrics for a song, and, **after you have
+  published a setlist at least once, automatically in the background when a song in an upcoming
+  setlist gets a recording**, so that publishing does not have to wait. A recording is sent once;
+  after that its lyrics are reused.
+- **Who processes it.** Our server passes the audio to **Replicate, Inc.**, which runs speech and
+  language models for us, including models operated by **OpenAI** and **Google**. The words those
+  models return are then checked by a text model operated by **Anthropic**, which receives the
+  text, not the audio. These companies process the data to provide the service to us, under their
+  own terms.
+- **What we keep.** We do not keep the audio that was sent for lyrics. We keep the resulting lyrics
+  (the words and their timing), any corrections you make to them, and a count of how many songs
+  you have had transcribed that month. These are stored under the same one-way-hashed folder name
+  as your published files, on Cloudflare, and are not public.
+- **Chords.** Chord charts are read on your device, from PDFs in your Planning Center account or
+  ones you add. They are not sent anywhere for processing. The chord names that end up over the
+  lyrics are part of the published setlist, like the lyrics themselves.
+- **Turning it off.** In Export → Web Player, switch off **Show lyrics**. No recording is then sent
+  for transcription, in the background or when you publish; one is sent only if you choose Get
+  Lyrics for a song yourself. Switch off **Show chords** to leave chords out of what you publish.
+
+Lyrics and chords you publish are visible to anyone with the Web Player link, like the audio.
 
 ### What is uploaded
 
 - **Audio files** the app generates for each song: the click-and-guide track, and — where you have
   one — the reference recording and its vocal-removed version.
+- **Lyrics and chords**, when those are switched on: the words of each song with their timing, and
+  the chord names over them.
 - **Setlist information**: song titles, tempo, time signature, song order, duration, and the service
   date associated with the setlist.
 - **An Apple subscription identifier** (your original transaction ID), used to confirm you have an
@@ -113,7 +152,7 @@ are never sent to us.
 Click Set Pro is sold through the **Apple App Store**. Apple processes all payments. We never receive
 or store your payment details, card numbers, or billing address.
 
-To confirm an active purchase for Web Player publishing, our server checks with Apple's App Store
+To confirm an active purchase for Web Player publishing and for lyrics, our server checks with Apple's App Store
 Server API using the subscription identifier described in Section 3.
 
 ---
@@ -136,7 +175,10 @@ We rely on a small number of providers strictly to deliver the features above:
 | Provider | Purpose |
 |---|---|
 | Apple | App distribution, purchases, subscription verification |
-| Cloudflare, Inc. | Hosting and delivery of Web Player audio and pages |
+| Cloudflare, Inc. | Hosting and delivery of Web Player audio and pages; storage of lyrics |
+| Replicate, Inc. | Runs the models that transcribe recordings into lyrics |
+| OpenAI, Google | Speech models used, through Replicate, to transcribe recordings |
+| Anthropic | Text model used, through Replicate, to check the transcribed words |
 | Planning Center Online | Only if you choose to connect your own account |
 
 ---
@@ -150,7 +192,12 @@ knowingly collect personal information from children under 13.
 
 ## 8. Your choices and requests
 
-- **Stop publishing:** simply don't use Send to Web Player. Nothing is uploaded otherwise.
+- **Stop publishing:** simply don't use Send to Web Player. If you have never published, nothing is
+  uploaded at all.
+- **Stop recordings being transcribed:** switch off Show lyrics in Export → Web Player, and don't
+  use Get Lyrics.
+- **Delete your lyrics from our servers:** email **brandonclement06@icloud.com** with a Web Player
+  link of yours and we will delete the lyrics stored for your account along with the files.
 - **Delete published audio:** email **brandonclement06@icloud.com** with the Web Player link and we
   will delete the associated files.
 - **Disconnect Planning Center:** Settings → Planning Center → Disconnect. Tokens are deleted from
